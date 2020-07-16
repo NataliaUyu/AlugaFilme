@@ -1,0 +1,373 @@
+@charset "ISO-8859-1";
+
+html {
+	/*background-image: url("https://cdn.lowgif.com/full/723d221bc4d3775a-star-wars-jump-to-lightspeed-in-reverse-as-viewed-from.gif");*/
+	/*	background: url("https://4.bp.blogspot.com/-kMaz0pc2byg/WR0-7ff36sI/AAAAAAAACJs/TP5cfRjf0A4Emzwpo0LEmvfrTqnYHv6swCLcB/s1600/CB%2Bbackround%2BBy%2BGagan%2B%2B%25283%2529.jpg");*/
+	
+}
+
+.backgroundTelaPrincipal {
+	background-image: url("../imagens/screen-9.jpg");
+	background-size: 100%;
+}
+
+.backgroundTelaCadastroVendedor {
+	background-image: url("../imagens/dd.gif");
+	background-size: 100%;
+}
+
+.backgroundTelaCadastroFilme {
+	background-image: url("../imagens/LOCADORA.gif");
+	background-size: 100%;
+}
+
+.backgroundTelaCadastroCliente {
+	background-image: url("../imagens/guard.png");
+	background-size: 100%;
+}
+
+.backgroundTelaConsultaFilme {
+	background-image: url("../imagens/bre.png");
+	background-size: 100%;
+}
+
+
+.backgroundTelaConsultaCliente {
+	background-image: url("../imagens/trek.png");
+	background-size: 100%;
+}
+
+
+.backgroundTelaConsultaVendedor {
+	background-image: url("../imagens/rick.png");
+	background-size: 100%;
+}
+
+.backgroundTelaAlterarCliente {
+	background-image: url("../imagens/pablo.png");
+	background-size: 100%;
+}
+.backgroundTelaAlterarFilme {
+	background-image: url("../imagens/dead.png");
+	background-size: 100%;
+}
+
+.backgroundTelaAlterarVendedor {
+	background-image: url("../imagens/dragon.png");
+	background-size: 100%;
+}
+
+
+.backgroundTelaEfetuarLocacao {
+	background-image: url("../imagens/chefe.png");
+	background-size: 100%;
+}
+
+
+
+.backgroundTelaDevolverLocacao {
+	background-image: url("../imagens/carrobr.png");
+	background-size: 100%;
+}
+
+.backgroundTelaConsultaClienteLocacao {
+	background-image: url("../imagens/serie.jpg");
+	background-size: 100%;
+}
+
+
+.BotaoAlegre {
+	backface-visibility: hidden;
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	white-space: nowrap;
+	background: rgba(15.31464394400487%, 43.672959597903116%, 86.90322580645162%, 0.634);
+	border-radius: 010px;
+	border: 01px solid #fefefe;
+	border-width: 01px 01px 01px 01px;
+	padding: 10px 20px 10px 20px;
+	box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 1), 0px 1px 3px
+		rgba(0, 0, 0, 0.3);
+	color: #fff;
+	font-size: 16px;
+	font-family: Helvetica Neue;
+	font-weight: 900;
+	font-style: normal;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4)
+	
+}
+
+.BotaoAlegre>div {
+	
+	color: #999;
+	font-size: 10px;
+	font-family: Helvetica Neue;
+	font-weight: initial;
+	font-style: normal;
+	text-align: center;
+	margin: 0px 0px 0px 0px
+	
+}
+
+.BotaoAlegre>i {
+	font-size: 1em;
+	border-radius: 0px;
+	border: 0px solid transparent;
+	border-width: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	position: static
+}
+
+.BotaoAlegre>.ld {
+	font-size: initial
+}
+
+.backgroundInput {
+	background-color: black;
+}
+
+
+
+.corBarraMenu {
+	background: rgba(226, 80, 141, 0.94);
+	height: 20px;
+	font-size: 12px;
+	font-family: tahoma;
+}
+
+.corBarraMenuCadastraCliente {
+	background: rgba(239, 190, 147, 0.94);
+	height: 20px;
+	font-size: 12px;
+	font-family: tahoma;
+}
+
+.corBarraMenuCadastraFilme {
+	background: rgba(232, 118, 232, 0.94);
+	height: 20px;
+	font-size: 12px;
+	font-family: tahoma;
+}
+
+
+.corBarraMenuCadastroVendedor{
+ 
+ 	background: rgba(221, 34, 119, 0.94);
+	 height: 20px;
+	font-size: 12px;
+	font-family: tahoma;
+} 
+
+.corBarraConsultaLocacao {
+	background: rgba(82, 149, 176, 0.94);
+	height: 20px;
+	font-size: 12px;
+	font-family: tahoma;
+}
+
+
+
+.corBarraMenuConsultaCliente {
+	background: rgba(111, 151, 204, 0.94);
+	height: 20px;
+	font-size: 12px;
+	font-family: tahoma;
+}
+
+
+.corBarraMenuConsultaFilme {
+	background: rgba(237, 147, 72, 0.94);
+	height: 20px;
+	font-size: 12px;
+	font-family: tahoma;
+}
+
+.corBarraMenuConsultaVendedor {
+	background: rgba(116, 165, 108, 0.94);
+	height: 20px;
+	font-size: 12px;
+	font-family: tahoma;
+}
+
+.corBarraMenuDevolucaoLocacao {
+	background: rgba(225, 145, 69, 0.94);
+	height: 20px;
+	font-size: 12px;
+	font-family: tahoma;
+}
+
+
+
+.corLetrasVendedor {
+	color: white;
+}
+
+.cadastro {
+	position: absolute;
+	top: -10px;
+	width: 35%;
+	padding: 1px 6% 20px 6%;
+	margin: 100px 100px 100px 350px;
+	background: rgba(182, 46, 208, 0.5);
+	border: 1px solid rgba(0, 0, 0, 1);
+	
+}
+
+.cadastroCliente {
+	position: absolute;
+	top: -10px;
+	width: 35%;
+	padding: 1px 6% 20px 6%;
+	margin: 100px 100px 100px 350px;
+	background: rgba(239, 190, 147, 0.5);
+	border: 1px solid rgba(0, 0, 0, 1);
+	
+}
+
+.cadastroVendedor {
+	position: absolute;
+	top: -10px;
+	width: 35%;
+	padding: 1px 6% 20px 6%;
+	margin: 100px 100px 100px 350px;
+	background: rgba(68, 34, 102, 0.5);
+	border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.telaAtrasDevolverLocacao {
+	position: absolute;
+	top: -10px;
+	width: 35%;
+	padding: 1px 6% 20px 6%;
+	margin: 100px 100px 100px 350px;
+	background: rgba(225, 145, 69, 0.5);
+	border: 1px solid rgba(0, 0, 0, 1);
+}
+
+
+
+ 
+ .corTabelaConsultaFilme {
+ 
+ background: rgba(175, 71, 36, 0.5);
+}
+
+ .corDaTabelaConsultaCliente{
+ 
+ background: rgba(96, 133, 255, 0.5);
+}
+  
+  .corDaTabelaConsultaVendedor{
+ 
+ background: rgba(160, 206, 152, 0.5);
+} 
+
+
+.corDaTabelaConsultaLocacao {
+ 
+ background: rgba(82, 149, 176, 0.94);
+} 
+
+
+
+
+
+
+  .button1 {
+    backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(180deg,#6e2ccf 0%,#1f1a26 49%,#26212c 51%,#692bc2 100%);
+  border-radius: 5px;
+  border: 1px solid #ba6;
+  border-width: 1px 1px 1px 1px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,1),0px 1px 3px rgba(0,0,0,0.3);
+    color: #fff;
+  font-size: 16px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal;
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4)
+  }
+  .button1 > div {
+    color: #999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 0px
+  }
+  .button1 > i {
+    font-size: 1em;
+  border-radius: 0px;
+  border: 0px solid transparent;
+  border-width: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  position: static
+  }
+  .button1 > .ld {
+    font-size: initial
+  }
+  
+
+   .button2 {
+    backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: rgba(93.72549019607843%,74.50980392156863%,57.647058823529406%,0.94);
+  border-radius: 5px;
+  border: 1px solid #ba6;
+  border-width: 1px 1px 1px 1px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,1),0px 1px 3px rgba(0,0,0,0.3);
+    color: #fff;
+  font-size: 16px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal;
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4)
+  }
+  .button2 > div {
+    color: #999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 0px
+  }
+  .button2 > i {
+  font-size: 1em;
+  border-radius: 0px;
+  border: 0px solid transparent;
+  border-width: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  position: static
+  }
+  .button2 > .ld {
+    font-size: initial
+  }
+
+  
+  {
+  .correcaoEfetuarLocacao{
+    color: white;
+    position: absolute;
+    margin-left: 58px;
+    margin-top: -22px;
+}
+  
+  
+
+ 
+}
